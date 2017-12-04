@@ -14,7 +14,7 @@ MeanStdnames = gsub('mean', 'Mean', MeanStdnames)
 MeanStdnames = gsub('-std', 'Std', MeanStdnames)
 MeanStdnames <- gsub('[-()]', '', MeanStdnames)
 
-##To load the datasets of training and set, together with their respective labels and subjects
+##To load the datasets of training and test, together with their respective labels and subjects
 Training <- read.table("C:/Users/Sebastian/Documents/Conferences, Competitions, Online Courses/Coursera/Getting and Cleaning Data/UCI HAR Dataset/train/X_train.txt")[MeanStd]
 Test <- read.table("C:/Users/Sebastian/Documents/Conferences, Competitions, Online Courses/Coursera/Getting and Cleaning Data/UCI HAR Dataset/test/X_test.txt")[MeanStd]
 Trainlabels <- read.table("C:/Users/Sebastian/Documents/Conferences, Competitions, Online Courses/Coursera/Getting and Cleaning Data/UCI HAR Dataset/train/y_train.txt")

@@ -1,0 +1,70 @@
+#Codebook
+The following are the codes in the tidy dataset:
+Activity Labels:
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+Activity Names:
+ [1] "tBodyAccMeanX"                "tBodyAccMeanY"               
+ [3] "tBodyAccMeanZ"                "tBodyAccStdX"                
+ [5] "tBodyAccStdY"                 "tBodyAccStdZ"                
+ [7] "tGravityAccMeanX"             "tGravityAccMeanY"            
+ [9] "tGravityAccMeanZ"             "tGravityAccStdX"             
+[11] "tGravityAccStdY"              "tGravityAccStdZ"             
+[13] "tBodyAccJerkMeanX"            "tBodyAccJerkMeanY"           
+[15] "tBodyAccJerkMeanZ"            "tBodyAccJerkStdX"            
+[17] "tBodyAccJerkStdY"             "tBodyAccJerkStdZ"            
+[19] "tBodyGyroMeanX"               "tBodyGyroMeanY"              
+[21] "tBodyGyroMeanZ"               "tBodyGyroStdX"               
+[23] "tBodyGyroStdY"                "tBodyGyroStdZ"               
+[25] "tBodyGyroJerkMeanX"           "tBodyGyroJerkMeanY"          
+[27] "tBodyGyroJerkMeanZ"           "tBodyGyroJerkStdX"           
+[29] "tBodyGyroJerkStdY"            "tBodyGyroJerkStdZ"           
+[31] "tBodyAccMagMean"              "tBodyAccMagStd"              
+[33] "tGravityAccMagMean"           "tGravityAccMagStd"           
+[35] "tBodyAccJerkMagMean"          "tBodyAccJerkMagStd"          
+[37] "tBodyGyroMagMean"             "tBodyGyroMagStd"             
+[39] "tBodyGyroJerkMagMean"         "tBodyGyroJerkMagStd"         
+[41] "fBodyAccMeanX"                "fBodyAccMeanY"               
+[43] "fBodyAccMeanZ"                "fBodyAccStdX"                
+[45] "fBodyAccStdY"                 "fBodyAccStdZ"                
+[47] "fBodyAccMeanFreqX"            "fBodyAccMeanFreqY"           
+[49] "fBodyAccMeanFreqZ"            "fBodyAccJerkMeanX"           
+[51] "fBodyAccJerkMeanY"            "fBodyAccJerkMeanZ"           
+[53] "fBodyAccJerkStdX"             "fBodyAccJerkStdY"            
+[55] "fBodyAccJerkStdZ"             "fBodyAccJerkMeanFreqX"       
+[57] "fBodyAccJerkMeanFreqY"        "fBodyAccJerkMeanFreqZ"       
+[59] "fBodyGyroMeanX"               "fBodyGyroMeanY"              
+[61] "fBodyGyroMeanZ"               "fBodyGyroStdX"               
+[63] "fBodyGyroStdY"                "fBodyGyroStdZ"               
+[65] "fBodyGyroMeanFreqX"           "fBodyGyroMeanFreqY"          
+[67] "fBodyGyroMeanFreqZ"           "fBodyAccMagMean"             
+[69] "fBodyAccMagStd"               "fBodyAccMagMeanFreq"         
+[71] "fBodyBodyAccJerkMagMean"      "fBodyBodyAccJerkMagStd"      
+[73] "fBodyBodyAccJerkMagMeanFreq"  "fBodyBodyGyroMagMean"        
+[75] "fBodyBodyGyroMagStd"          "fBodyBodyGyroMagMeanFreq"    
+[77] "fBodyBodyGyroJerkMagMean"     "fBodyBodyGyroJerkMagStd"     
+[79] "fBodyBodyGyroJerkMagMeanFreq"
+
+These were calculated using the following commands:
+mean(): Mean value
+std(): Standard deviation
+mad(): Median absolute deviation 
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
